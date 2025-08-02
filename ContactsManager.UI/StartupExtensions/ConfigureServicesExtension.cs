@@ -1,5 +1,8 @@
-﻿using CRUDExample.Filters.ActionFilters;
+﻿using ContactsManager.Core.Domain.Entities;
+using CRUDExample.Filters.ActionFilters;
 using Entities;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Repositories;
 using RepositoryContracts;
@@ -44,7 +47,15 @@ namespace CRUDExample
    services.AddScoped<IPersonsUpdaterService, PersonsUpdaterService>();
    services.AddScoped<IPersonsSorterService, PersonsSorterService>();
 
-   services.AddDbContext<ApplicationDbContext>(options =>
+   //Enable Identity in this project
+   services.AddIdentity<ApplicationUser, ApplicationRole>()
+   .AddEntityFrameworkStores<ApplicationDbContext>()
+   .AddDefaultTokenProviders()
+   .AddUserStore<UserStore<ApplicationUser, ApplicationRole, ApplicationDbContext, Guid>>()
+   .AddRoleStore<RoleStore<ApplicationRole, ApplicationDbContext, Guid>>();
+
+
+	services.AddDbContext<ApplicationDbContext>(options =>
    {
     options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
    });
