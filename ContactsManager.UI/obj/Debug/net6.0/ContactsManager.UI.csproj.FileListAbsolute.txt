@@ -209,3 +209,8 @@ C:\Users\Muhammed Reda\Desktop\ContactsManager\ContactsManager.UI\obj\Debug\net6
 C:\Users\Muhammed Reda\Desktop\ContactsManager\ContactsManager.UI\obj\Debug\net6.0\ContactsManager.UI.pdb
 C:\Users\Muhammed Reda\Desktop\ContactsManager\ContactsManager.UI\obj\Debug\net6.0\ContactsManager.UI.genruntimeconfig.cache
 C:\Users\Muhammed Reda\Desktop\ContactsManager\ContactsManager.UI\obj\Debug\net6.0\ref\ContactsManager.UI.dll
+C:\Users\Muhammed Reda\Desktop\ContactsManager\ContactsManager.UI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Muhammed Reda\Desktop\ContactsManager\ContactsManager.UI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Muhammed Reda\Desktop\ContactsManager\ContactsManager.UI\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Muhammed Reda\Desktop\ContactsManager\ContactsManager.UI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Muhammed Reda\Desktop\ContactsManager\ContactsManager.UI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
