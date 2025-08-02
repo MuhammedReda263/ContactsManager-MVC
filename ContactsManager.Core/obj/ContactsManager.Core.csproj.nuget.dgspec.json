@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Muhammed Reda\\Desktop\\New folder\\ContactsManager.Core\\ContactsManager.Core.csproj": {}
+    "C:\\Users\\Muhammed Reda\\Desktop\\ContactsManager\\ContactsManager.Core\\ContactsManager.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Muhammed Reda\\Desktop\\New folder\\ContactsManager.Core\\ContactsManager.Core.csproj": {
+    "C:\\Users\\Muhammed Reda\\Desktop\\ContactsManager\\ContactsManager.Core\\ContactsManager.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Muhammed Reda\\Desktop\\New folder\\ContactsManager.Core\\ContactsManager.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Muhammed Reda\\Desktop\\ContactsManager\\ContactsManager.Core\\ContactsManager.Core.csproj",
         "projectName": "ContactsManager.Core",
-        "projectPath": "C:\\Users\\Muhammed Reda\\Desktop\\New folder\\ContactsManager.Core\\ContactsManager.Core.csproj",
+        "projectPath": "C:\\Users\\Muhammed Reda\\Desktop\\ContactsManager\\ContactsManager.Core\\ContactsManager.Core.csproj",
         "packagesPath": "C:\\Users\\Muhammed Reda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Muhammed Reda\\Desktop\\New folder\\ContactsManager.Core\\obj\\",
+        "outputPath": "C:\\Users\\Muhammed Reda\\Desktop\\ContactsManager\\ContactsManager.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Muhammed Reda\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,6 +53,10 @@
             "EPPlus": {
               "target": "Package",
               "version": "[6.0.8, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
             },
             "Microsoft.AspNetCore.Mvc.DataAnnotations": {
               "target": "Package",

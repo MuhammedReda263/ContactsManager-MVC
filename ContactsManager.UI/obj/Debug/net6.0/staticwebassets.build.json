@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WfFoGjxMZULbCPFdr4exkr20gY9kKyOhXM7K1MuqVSg=",
+  "Hash": "jUfF77iKB5Rymk3wyOpXvTJjxuOB8LUR0dHI5QXOYMI=",
   "Source": "ContactsManager.UI",
   "BasePath": "_content/ContactsManager.UI",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ContactsManager.UI\\wwwroot",
       "Source": "ContactsManager.UI",
-      "ContentRoot": "C:\\Users\\Muhammed Reda\\Desktop\\New folder\\ContactsManager.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Muhammed Reda\\Desktop\\ContactsManager\\ContactsManager.UI\\wwwroot\\",
       "BasePath": "_content/ContactsManager.UI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Muhammed Reda\\Desktop\\New folder\\ContactsManager.UI\\wwwroot\\error.svg",
+      "Identity": "C:\\Users\\Muhammed Reda\\Desktop\\ContactsManager\\ContactsManager.UI\\wwwroot\\error.svg",
       "SourceId": "ContactsManager.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Muhammed Reda\\Desktop\\New folder\\ContactsManager.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Muhammed Reda\\Desktop\\ContactsManager\\ContactsManager.UI\\wwwroot\\",
       "BasePath": "_content/ContactsManager.UI",
       "RelativePath": "error.svg",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\error.svg"
     },
     {
-      "Identity": "C:\\Users\\Muhammed Reda\\Desktop\\New folder\\ContactsManager.UI\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Muhammed Reda\\Desktop\\ContactsManager\\ContactsManager.UI\\wwwroot\\favicon.ico",
       "SourceId": "ContactsManager.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Muhammed Reda\\Desktop\\New folder\\ContactsManager.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Muhammed Reda\\Desktop\\ContactsManager\\ContactsManager.UI\\wwwroot\\",
       "BasePath": "_content/ContactsManager.UI",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Muhammed Reda\\Desktop\\New folder\\ContactsManager.UI\\wwwroot\\jquery.min.js",
+      "Identity": "C:\\Users\\Muhammed Reda\\Desktop\\ContactsManager\\ContactsManager.UI\\wwwroot\\jquery.min.js",
       "SourceId": "ContactsManager.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Muhammed Reda\\Desktop\\New folder\\ContactsManager.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Muhammed Reda\\Desktop\\ContactsManager\\ContactsManager.UI\\wwwroot\\",
       "BasePath": "_content/ContactsManager.UI",
       "RelativePath": "jquery.min.js",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Muhammed Reda\\Desktop\\New folder\\ContactsManager.UI\\wwwroot\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Muhammed Reda\\Desktop\\ContactsManager\\ContactsManager.UI\\wwwroot\\jquery.validate.min.js",
       "SourceId": "ContactsManager.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Muhammed Reda\\Desktop\\New folder\\ContactsManager.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Muhammed Reda\\Desktop\\ContactsManager\\ContactsManager.UI\\wwwroot\\",
       "BasePath": "_content/ContactsManager.UI",
       "RelativePath": "jquery.validate.min.js",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Muhammed Reda\\Desktop\\New folder\\ContactsManager.UI\\wwwroot\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Muhammed Reda\\Desktop\\ContactsManager\\ContactsManager.UI\\wwwroot\\jquery.validate.unobtrusive.min.js",
       "SourceId": "ContactsManager.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Muhammed Reda\\Desktop\\New folder\\ContactsManager.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Muhammed Reda\\Desktop\\ContactsManager\\ContactsManager.UI\\wwwroot\\",
       "BasePath": "_content/ContactsManager.UI",
       "RelativePath": "jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Muhammed Reda\\Desktop\\New folder\\ContactsManager.UI\\wwwroot\\logo.png",
+      "Identity": "C:\\Users\\Muhammed Reda\\Desktop\\ContactsManager\\ContactsManager.UI\\wwwroot\\logo.png",
       "SourceId": "ContactsManager.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Muhammed Reda\\Desktop\\New folder\\ContactsManager.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Muhammed Reda\\Desktop\\ContactsManager\\ContactsManager.UI\\wwwroot\\",
       "BasePath": "_content/ContactsManager.UI",
       "RelativePath": "logo.png",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\Muhammed Reda\\Desktop\\New folder\\ContactsManager.UI\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "Identity": "C:\\Users\\Muhammed Reda\\Desktop\\ContactsManager\\ContactsManager.UI\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
       "SourceId": "ContactsManager.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Muhammed Reda\\Desktop\\New folder\\ContactsManager.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Muhammed Reda\\Desktop\\ContactsManager\\ContactsManager.UI\\wwwroot\\",
       "BasePath": "_content/ContactsManager.UI",
       "RelativePath": "Rotativa/wkhtmltopdf.exe",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\Rotativa\\wkhtmltopdf.exe"
     },
     {
-      "Identity": "C:\\Users\\Muhammed Reda\\Desktop\\New folder\\ContactsManager.UI\\wwwroot\\StyleSheet.css",
+      "Identity": "C:\\Users\\Muhammed Reda\\Desktop\\ContactsManager\\ContactsManager.UI\\wwwroot\\StyleSheet.css",
       "SourceId": "ContactsManager.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Muhammed Reda\\Desktop\\New folder\\ContactsManager.UI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Muhammed Reda\\Desktop\\ContactsManager\\ContactsManager.UI\\wwwroot\\",
       "BasePath": "_content/ContactsManager.UI",
       "RelativePath": "StyleSheet.css",
       "AssetKind": "All",

@@ -1,35 +1,35 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Muhammed Reda\\Desktop\\New folder\\ContactsManager.UI\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "Id": "C:\\Users\\Muhammed Reda\\Desktop\\ContactsManager\\ContactsManager.UI\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
       "PackagePath": "staticwebassets\\Rotativa\\wkhtmltopdf.exe"
     },
     {
-      "Id": "C:\\Users\\Muhammed Reda\\Desktop\\New folder\\ContactsManager.UI\\wwwroot\\StyleSheet.css",
+      "Id": "C:\\Users\\Muhammed Reda\\Desktop\\ContactsManager\\ContactsManager.UI\\wwwroot\\StyleSheet.css",
       "PackagePath": "staticwebassets\\StyleSheet.css"
     },
     {
-      "Id": "C:\\Users\\Muhammed Reda\\Desktop\\New folder\\ContactsManager.UI\\wwwroot\\error.svg",
+      "Id": "C:\\Users\\Muhammed Reda\\Desktop\\ContactsManager\\ContactsManager.UI\\wwwroot\\error.svg",
       "PackagePath": "staticwebassets\\error.svg"
     },
     {
-      "Id": "C:\\Users\\Muhammed Reda\\Desktop\\New folder\\ContactsManager.UI\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\Muhammed Reda\\Desktop\\ContactsManager\\ContactsManager.UI\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Muhammed Reda\\Desktop\\New folder\\ContactsManager.UI\\wwwroot\\jquery.min.js",
+      "Id": "C:\\Users\\Muhammed Reda\\Desktop\\ContactsManager\\ContactsManager.UI\\wwwroot\\jquery.min.js",
       "PackagePath": "staticwebassets\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Muhammed Reda\\Desktop\\New folder\\ContactsManager.UI\\wwwroot\\jquery.validate.min.js",
+      "Id": "C:\\Users\\Muhammed Reda\\Desktop\\ContactsManager\\ContactsManager.UI\\wwwroot\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\Muhammed Reda\\Desktop\\New folder\\ContactsManager.UI\\wwwroot\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\Muhammed Reda\\Desktop\\ContactsManager\\ContactsManager.UI\\wwwroot\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\Muhammed Reda\\Desktop\\New folder\\ContactsManager.UI\\wwwroot\\logo.png",
+      "Id": "C:\\Users\\Muhammed Reda\\Desktop\\ContactsManager\\ContactsManager.UI\\wwwroot\\logo.png",
       "PackagePath": "staticwebassets\\logo.png"
     },
     {
