@@ -1,3 +1,0 @@
-2025-08-01 00:23:46.566 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
-2025-08-01 00:24:37.766 +03:00 [INF] User profile is available. Using 'C:\Users\Muhammed Reda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
-2025-08-01 00:24:37.871 +03:00 [INF] Now listening on: http://localhost:5153
