@@ -55,6 +55,7 @@ app.UseAuthentication(); // Reading identity cookie
 app.UseAuthorization();
 app.MapControllers();
 
+
 app.Run();
 
 public partial class Program { } //make the auto-generated Program accessible programmatically

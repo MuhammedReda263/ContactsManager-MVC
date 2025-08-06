@@ -9,6 +9,7 @@ using RepositoryContracts;
 using ServiceContracts;
 using Services;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 
 namespace CRUDExample
 {
@@ -66,6 +67,14 @@ namespace CRUDExample
     services.AddAuthorization(options =>
       {
          options.FallbackPolicy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build(); //enforces authoriation policy (user must be authenticated) for all the action methods
+          options.AddPolicy("NotAuthorized", policy =>
+          {
+              policy.RequireAssertion(context =>
+              {
+                  return !context.User.Identity.IsAuthenticated ;
+              }
+              );
+          });
       });
 
     //iF USER ISN'T LOGED IN [don't have a cookie]
