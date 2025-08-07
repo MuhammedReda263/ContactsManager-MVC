@@ -10,6 +10,7 @@ using ServiceContracts;
 using Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
+using Microsoft.AspNetCore.Mvc;
 
 namespace CRUDExample
 {
@@ -30,8 +31,13 @@ namespace CRUDExample
      Key = "My-Key-From-Global",
      Value = "My-Value-From-Global",
      Order = 2
-    }); // We implement iorderdfilter to can add value to order in this global filter
-   });  //options.Filters.Add<PersonHeaderActionFilter>(5) if your filter dosn't have additional paramaters and you don't need to implement iorderdfilter
+    });  // We implement iorderdfilter to can add value to order in this global filter
+         //options.Filters.Add<PersonHeaderActionFilter>(5) if your filter dosn't have additional paramaters and you don't need to implement iorderdfilter
+
+
+
+                options.Filters.Add(new AutoValidateAntiforgeryTokenAttribute()); // add ValidateAntiforgeryTokenAttribute global for every httpost methods
+            });  
 
 			//add services into IoC container
 			services.AddScoped<ICountriesRepository, CountriesRepository>();
