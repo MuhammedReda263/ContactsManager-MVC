@@ -1,7 +1,7 @@
 # 📇 Contacts Manager (ASP.NET Core MVC)
 
 This repository contains a **.NET 8.0 MVC application** for managing contacts with advanced functionalities and modern software engineering practices.  
-The solution demonstrates concepts such as **Clean Architecture**, **Repository & Unit of Work patterns**, **Authentication & Authorization with Identity & Roles**, **Logging**, **Testing**, and exporting data as **PDF/CSV/Excel**.  
+The solution demonstrates concepts such as **Clean Architecture**, **Repository Pattern**, **Authentication & Authorization with Identity & Roles**, **Logging**, **Testing**, and exporting data as **PDF/CSV/Excel**.  
 
 ---
 
@@ -13,7 +13,7 @@ The solution demonstrates concepts such as **Clean Architecture**, **Repository 
 
 ### 2. **Entity Framework Core Integration**
 - **SQL Server**.  
-- Repository & Unit of Work patterns for data access.  
+- Repository Pattern for data access.  
 - LINQ for querying and data manipulation.  
 
 ### 3. **Authentication & Authorization**
@@ -43,7 +43,7 @@ The solution demonstrates concepts such as **Clean Architecture**, **Repository 
 ## **Technologies Used**
 - **.NET 8.0 MVC**  
 - **Entity Framework Core**  
-- **Repository & Unit of Work Patterns**  
+- **Repository Pattern**  
 - **Serilog Logging**  
 - **AutoMapper**  
 - **ASP.NET Core Identity**  
@@ -62,7 +62,9 @@ ContactsManager
 │
 ├── ContactsManager.Core             # Core layer (business logic & contracts)
 │   ├── DTO                          # Data Transfer Objects
-│   ├── Domain                       # Domain entities (Person, Country, etc.)
+│   ├── Domain                       # Domain Layer
+│   │   ├── Entities                 # Domain entities (Person, Country, etc.)
+│   │   └── RepositoryContracts      # Interfaces for repositories
 │   ├── Enums                        # Enumerations
 │   ├── Exceptions                   # Custom exception handling
 │   ├── Helpers                      # Helper classes
@@ -72,7 +74,7 @@ ContactsManager
 ├── ContactsManager.Infrastructure   # Data access & persistence
 │   ├── DbContext                    # ApplicationDbContext and EF Core configs
 │   ├── Migrations                   # EF Core migrations
-│   └── Repositories                 # Repository & Unit of Work implementations
+│   └── Repositories                 # Repository implementations
 │
 ├── ContactsManager.UI               # ASP.NET Core MVC (Presentation Layer)
 │   ├── Controllers                  # MVC Controllers (Person, Country, Account)
