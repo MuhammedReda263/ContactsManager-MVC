@@ -45,7 +45,6 @@ The solution demonstrates concepts such as **Clean Architecture**, **Repository 
 - **Entity Framework Core**  
 - **Repository Pattern**  
 - **Serilog Logging**  
-- **AutoMapper**  
 - **ASP.NET Core Identity**  
 - **xUnit, Moq, Fluent Assertions**  
 - **Integration Testing**  
